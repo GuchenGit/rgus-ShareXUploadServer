@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Local",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "localhost:8000/send",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "password": "your_password",
+    "livingTime": "86400000"
+  },
+  "FileFormName": "name",
+  "URL": "http://localhost:8000/view/{json:path}",
+  "DeletionURL": "http://localhost:8000/delete/{json:deletePath}/{json:deleteKey}"
+}
