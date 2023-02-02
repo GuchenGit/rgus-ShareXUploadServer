@@ -29,7 +29,7 @@ Simply go to Destinations -> Custom uploader and import the settings. Make sure 
 
 #### Creating a custom configuration on your own
 1. Create a new preset under Destinations -> Custom uploader settings.
-2. Select Post method using the following request URL: [your_domain]:[your_port]/send
+2. Select Post method using the following request URL: http://[your_domain]:[your_port]/send
 3. In the body choose Form data and enter: 
      + The parameter "password" with the value of your chosen password.
      + The parameter "livingTime" with the time span the file should exist on the server (in milliseconds). **This is client sided.**
